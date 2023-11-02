@@ -280,10 +280,8 @@ chmod +x $HOME/../usr/bin/kill_termux_x11
 
 setup_theme() {
 #Download Wallpaper
-wget https://raw.githubusercontent.com/phoenixbyrd/Termux_XFCE/main/peakpx.jpg
-wget https://raw.githubusercontent.com/phoenixbyrd/Termux_XFCE/main/dark_waves.png
-mv peakpx.jpg $HOME/../usr/share/backgrounds/xfce/
-mv dark_waves.png $HOME/../usr/share/backgrounds/xfce/
+wget https://github.com/phoenixbyrd/Wallpapers/blob/main/1812104.jpg
+mv 1812104.jpg $HOME/../usr/share/backgrounds/xfce/
 
 #Install WhiteSur-Dark Theme
 wget https://github.com/vinceliuice/WhiteSur-gtk-theme/archive/refs/tags/2023-04-26.zip
@@ -385,3 +383,4 @@ echo ""
 echo "Enjoy your Termux XFCE4 Desktop experience!"
 echo ""
 echo ""
+echo "made by king the II" 
